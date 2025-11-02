@@ -162,17 +162,11 @@ Try these questions in the Streamlit input box:
 
 ---
 
-## 🧠 Sample Output
+## 🧠 Sample Output Snapshots
 
-```
-The SQL Query is
-SELECT NAME FROM STUDENTS WHERE MARKS > 90;
+<img width="528" height="960" alt="image" src="https://github.com/user-attachments/assets/5d05246f-f93f-4341-a7e2-ecb7ad176144" />
 
-The Response is
-Michael Brown
-Sarah Johnson
-Sophia Hall
-```
+<img width="581" height="996" alt="image" src="https://github.com/user-attachments/assets/0330ecdd-64d5-45d8-a030-ff38d8aacf0c" />
 
 ---
 
