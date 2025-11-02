@@ -12,6 +12,8 @@ This project demonstrates how to:
 3. 🗃️ Execute the SQL query on a local **SQLite database**.
 4. 📊 Display the database results interactively using **Streamlit**.
 
+![Untitled Diagram](https://github.com/user-attachments/assets/d609efb1-e23d-460f-bdcf-a514fd1cee17)
+
 ---
 
 ## 🧩 Tools & Technologies Used
@@ -22,36 +24,6 @@ This project demonstrates how to:
 | 🎨 **Streamlit** | To create an interactive web UI |
 | 🤖 **Google Gemini Pro (gemini-2.5-flash)** | Converts English questions to SQL queries |
 | 🔐 **dotenv** | For securely loading API keys from `.env` file |
-
----
-
-## 🧱 Project Architecture
-
-
-```
-     ┌─────────────────────────────┐
-     │     Streamlit Frontend      │
-     │ (User inputs English query) │
-     └──────────────┬──────────────┘
-                    │
-                    ▼
-         ┌────────────────────┐
-         │ Google Gemini Pro  │
-         │ (Text → SQL Query) │
-         └────────┬───────────┘
-                  │
-                  ▼
-       ┌──────────────────────┐
-       │     SQLite DB        │
-       │ (Executes SQL query) │
-       └─────────┬────────────┘
-                 │
-                 ▼
-     ┌────────────────────────────┐
-     │   Streamlit Output View    │
-     │ (Displays query & results) │
-     └────────────────────────────┘
-```
 
 ---
 
