@@ -27,7 +27,6 @@ This project demonstrates how to:
 
 ## 🧱 Project Architecture
 
-```
 
 ```
      ┌─────────────────────────────┐
@@ -52,8 +51,6 @@ This project demonstrates how to:
      │   Streamlit Output View    │
      │ (Displays query & results) │
      └────────────────────────────┘
-```
-
 ```
 
 ---
@@ -90,13 +87,10 @@ Activate the environment:
 
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-venv\Scripts\Activate.ps1
 ```
 
-**Mac/Linux**
-
 ```bash
-source venv/bin/activate
+venv\Scripts\Activate.ps1
 ```
 
 ---
@@ -219,6 +213,3 @@ Then display the output results clearly, without any parentheses, commas, or tup
 * Add authentication for API key security.
 
 ---
-
-Would you like me to include a **diagram image** version of the architecture (not just text-based) in the README? I can generate a clean visual architecture diagram for you.
-```
